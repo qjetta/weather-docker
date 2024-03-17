@@ -4,7 +4,7 @@ name: weather-prod
 
 services:
   mongo:
-    image: mongo:5.0.26-rc0-focal
+    image: mongo:7.0.6-jammy
     restart: always
     container_name: mweather
     ports:
